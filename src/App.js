@@ -9,7 +9,7 @@ function App() {
     <div>
       <Navbar className="App"></Navbar>
       <Switch>
-        <Route path="/category/:id" component={CocktailPage} />
+        <Route path="/category/:category" component={CocktailPage} />
         <Route exact path="/" component={HomePage} />
       </Switch>
     </div>

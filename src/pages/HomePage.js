@@ -23,7 +23,7 @@ export default function HomePage() {
         {categoryList.map((category, id) => {
           return (
             <p key={id} className="category-name">
-              <Link to={`/category/${id}/${category.strCategory}`}>
+              <Link to={`/category/${category.strCategory}`}>
                 {category.strCategory}
               </Link>
             </p>
