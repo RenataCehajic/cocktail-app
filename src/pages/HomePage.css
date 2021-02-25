@@ -24,11 +24,15 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: left;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
 .title {
   display: flex;
   margin: 40px;
+  font-size: 24px;
 }
 
 .category {
