@@ -21,7 +21,7 @@ export default function CocktailPage() {
       console.log("What data do I get?", response);
     }
     fetchData();
-  }, []);
+  }, [params.category]);
 
   console.log("What data do I get?", cocktailData);
 

@@ -1,0 +1,10 @@
+.Home {
+  display: inline;
+  padding: 8px;
+  font-size: 20px;
+  background-color: #dddddd;
+}
+
+.Home:hover {
+  background-color: rgba(27, 172, 87, 0.335);
+}
