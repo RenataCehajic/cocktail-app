@@ -1,14 +1,12 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import "./NavBar.css";
 
 export default function NavBar() {
   return (
     <div>
       <NavLink exact to="/" activeStyle={{ fontWeight: "bold" }}>
         Home
-      </NavLink>
-      <NavLink exact to="/about" activeStyle={{ fontWeight: "bold" }}>
-        About this page
       </NavLink>
     </div>
   );

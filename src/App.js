@@ -1,16 +1,16 @@
 import "./App.css";
 import { Switch, Route } from "react-router-dom";
 import HomePage from "./pages/HomePage";
-import AboutPage from "./pages/AboutPage";
+import CocktailPage from "./pages/CocktailPage";
 import Navbar from "./components/NavBar";
 
 function App() {
   return (
-    <div className="App">
-      <Navbar></Navbar>
+    <div>
+      <Navbar className="App"></Navbar>
       <Switch>
-        <Route exact path="/about" component={AboutPage} />
-        <Route path="/" component={HomePage} />
+        <Route path="/category/:id" component={CocktailPage} />
+        <Route exact path="/" component={HomePage} />
       </Switch>
     </div>
   );

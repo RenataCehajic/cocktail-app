@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url("https://images.unsplash.com/photo-1602748707693-c6ac2d12a903?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTV8fGNvY2t0YWlsfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+/* div {
+  display: flex;
+  justify-content: center;
+} */
+
+.drinks {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+}
+
+.title {
+  display: flex;
+  margin: 40px;
+}
+
+.category {
+  display: flex;
+  flex-direction: column;
+}
+
+.category-name {
+  display: flex;
+  margin: 20px 150px;
+  /* justify-content: center;
+  align-items: center;
+  align-content: center; */
+  flex-flow: column wrap;
+}
